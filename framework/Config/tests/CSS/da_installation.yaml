@@ -1,0 +1,44 @@
+# This file is intended to hold information regarding the POC of CSS GUI automation
+
+da_installation:
+  paths:
+    remote_da_root_path: C:\_SetupRoot
+    repo_da_root_path: .\\Desktop
+    remote_apps_root_path: C:\_SetupRoot
+    repo_apps_root_path: .\\Desktop
+    remote_framework_path: C:\_MySource\depot2\Cloud\TestAutomation\framework
+
+  settings:
+    vry_small_retry: 1 # 1 seconds
+    small_retry: 15 # 15 seconds
+    med_retry: 60 # 1 minute
+    big_retry: 900 # 15 minutes
+    sql_machine_name: 'bh2damdb1.nda2f1r1c1.nda2f1r1.com' # fully qualified name, including domain name
+    sql_instance_name: ''
+    sql_login_account: nda2f1r1c1\administrator  # leave blank to select default, else provide account (domain_name\administrator)
+    da_instance_name: 'DA_Instance_Name' # DA installation name
+    new_management_db_name: 'DA_Management_DB'
+    licence_key: 'DA2685C0-51294000-8D4FDF1C'
+    version: 'Version: 3.8.0.114'
+    tear_down: False
+
+    audit_console:
+      disable_video_capturing: False
+      review_own_session: False
+      delete_own_session: False
+      disable_audit_store_install_now: True
+
+    audit_store:
+      store_display_name: "My_Audit_Store"
+      affinity: "Windows and UNIX" # Windows and UNIX, Windows, UNIX
+      ad_site: "SZ" # leave blank to select first AD site in list, else provide site name
+      db_display_name: "My_Audit_Store_DB"
+      db_name: "Audit_Store_DB"
+      db_set_active: True
+
+    collector:
+      listening_port: 5063
+      max_pool_size: 1000
+
+    agent:
+      enable_session_capture: True

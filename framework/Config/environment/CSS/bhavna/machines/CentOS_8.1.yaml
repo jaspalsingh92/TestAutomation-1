@@ -1,0 +1,12 @@
+public_ip: 192.168.25.129
+hostname: bhcssa22-cen81
+root_password: bhp@ssW0rd
+normal_password: C0mm0nPa$$w0rd
+super_password: C0mm0nPa$$w0rd
+locu01_password: C0mm0nPa$$w0rd
+blocal1_password: C0mm0nPa$$w0rd
+blocal2_password: C0mm0nPa$$w0rd
+blocal3_password: C0mm0nPa$$w0rd
+blocal5_password: C0mm0nPa$$w0rd
+blocal6_password: C0mm0nPa$$w0rd
+
